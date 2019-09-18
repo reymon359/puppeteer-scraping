@@ -9,7 +9,7 @@ const puppeteer = require('puppeteer');
     await page.type('#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input', 'Harry Potter', { delay: 100 }); // Types slower, like a user
     await page.keyboard.press('Enter');
     await page.waitForNavigation();
-    await page.screenshot({ path: './installation and testing/example.png' });
+    await page.screenshot({ path: './Installation and testing/example.png' });
 
     // await browser.close();
 
